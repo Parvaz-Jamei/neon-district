@@ -1,16 +1,19 @@
-# Upload the main game file
+# Final Setup (30 seconds)
 
-The professional documentation is already live.
+The documentation and project structure are complete and polished.
 
-To complete the repository, please upload the file:
+**To finish the repository:**
 
-**index.html** (the Director's Cut 9.5 game)
+1. Go to the repository page
+2. Click **Add file → Upload files**
+3. Drag your `Neon_District_Directors_Cut_Release.html` file
+4. Rename it to **`index.html`**
+5. Commit the change
 
-You can do it easily:
-1. Go to https://github.com/Parvaz-Jamei/neon-district
-2. Click "Add file" → "Upload files"
-3. Drag the `Neon_District_Directors_Cut_Release.html` and rename it to `index.html`
-4. Commit
+Then enable GitHub Pages:
+- Settings → Pages → Source: `main` branch → Save
 
-After that, enable GitHub Pages (Settings → Pages → Deploy from main branch) so people can play online at:
-https://parvaz-jamei.github.io/neon-district/
+The live game will be available at:
+**https://parvaz-jamei.github.io/neon-district/**
+
+After uploading `index.html` you can safely delete this note.
