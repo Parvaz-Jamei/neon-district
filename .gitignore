@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Optional local
+node_modules/
+dist/
+build/
+.cache/
+.env
+.env.local
+
+# Temporary
+*.tmp
+*.temp
+.DS_Store
