@@ -1,0 +1,37 @@
+{
+  "name": "neon-district",
+  "version": "9.5.0",
+  "description": "Neon District — Director's Cut 9.5. A single-file offline open-world game with simulation driving, style system, living city, dynamic weather and cinematic tools.",
+  "main": "index.html",
+  "author": {
+    "name": "Parvaz Jamei",
+    "url": "https://github.com/Parvaz-Jamei",
+    "email": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "game",
+    "html5",
+    "canvas",
+    "open-world",
+    "driving",
+    "single-file",
+    "offline",
+    "neon",
+    "cyberpunk",
+    "javascript",
+    "vanilla-js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Parvaz-Jamei/neon-district.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Parvaz-Jamei/neon-district/issues"
+  },
+  "homepage": "https://github.com/Parvaz-Jamei/neon-district#readme",
+  "scripts": {
+    "start": "npx serve .",
+    "serve": "python -m http.server 8080"
+  }
+}
