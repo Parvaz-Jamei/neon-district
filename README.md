@@ -2,32 +2,32 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-9.5.0--SAFE-62e6ff)](https://github.com/Parvaz-Jamei/neon-district)
-[![Single File](https://img.shields.io/badge/format-single--file%20HTML5-success)](index.html)
+[![Single File](https://img.shields.io/badge/format-single--file%20HTML5-success)](#)
 [![Offline](https://img.shields.io/badge/offline-ready-brightgreen)](#)
 [![Made by](https://img.shields.io/badge/made%20by-Parvaz%20Jamei-ff66b3)](https://github.com/Parvaz-Jamei)
 
-> **A neon-soaked living open-world city** built entirely in a single HTML file.  
-> Simulation-grade driving • Style combos • Side hustles • Dynamic weather • Cinematic photo tools.
+> **A complete neon-soaked open-world experience** inside a single HTML file.  
+> Simulation driving • Style combos • Living city • Dynamic weather • Cinematic tools.
 
-**Play instantly →** Open [`index.html`](index.html) in any modern browser.  
-No install. No server. No dependencies.
+**No install. No server. No dependencies.**  
+Just open the file and play.
 
 ---
 
-## ✨ Highlights
+## Highlights
 
-- **100% Offline & Single-File** — One `.html` contains the entire game (engine, assets, systems).
-- **Simulation Driving** — Slip physics, hydroplaning, visible vehicle damage, realistic handling.
-- **Style System** — Near-misses, stunts, drift combos, clean escapes. Build meter & multipliers.
-- **Living City** — Reactive crowds, living traffic, day/night cycle with solar lighting, dynamic weather.
-- **Wanted Heat & Contracts** — 16 contracts + side hustles, tags, photo spots, micro-challenges.
+- **100% Offline & Single-File** — The entire game (engine, systems, UI) lives in one `.html` file.
+- **Simulation-Grade Driving** — Slip physics, hydroplaning, visible damage, realistic handling.
+- **Style System** — Near-misses, stunts, drift combos and clean escapes with meter & multipliers.
+- **Living City** — Reactive crowds, traffic, solar day/night cycle and dynamic weather.
+- **Contracts & Side Hustles** — 16 contracts, tags, photo spots and micro-challenges.
 - **Cinematic Tools** — Photo Mode with color grades + 4 skill arcades.
-- **Adaptive Performance** — Soft particle trimming, FPS-aware caps, graceful degradation on low-end devices.
-- **Controller Ready** — Keyboard, Touch, Gamepad support out of the box.
+- **Adaptive Performance** — FPS-aware particle & glow budgets. Stays smooth on low-end devices.
+- **Full Input Support** — Keyboard, touch and gamepad ready.
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Input | Action |
 |-------|--------|
@@ -44,14 +44,14 @@ No install. No server. No dependencies.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-### Option 1 — Instant Play (Recommended)
+### 1. Play Offline (Recommended)
 1. Download or clone this repository
-2. Double-click `index.html`
-3. Play offline in Chrome, Edge, Firefox, or Safari
+2. Open `index.html` in any modern browser (Chrome, Edge, Firefox, Safari)
+3. Play immediately — fully offline
 
-### Option 2 — Local Server (optional)
+### 2. Local Server (optional)
 ```bash
 # Python
 python -m http.server 8080
@@ -61,101 +61,102 @@ npx serve .
 ```
 Then open `http://localhost:8080`
 
-### Option 3 — GitHub Pages
-Once enabled, the game will be available at:  
-`https://parvaz-jamei.github.io/neon-district/`
+### 3. GitHub Pages
+Enable Pages in repository **Settings → Pages** (Source: `main` branch).  
+The game will be available at:  
+**https://parvaz-jamei.github.io/neon-district/**
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- **Pure HTML5 + Canvas 2D**
-- **Vanilla JavaScript** (no frameworks, no build step)
+- Pure **HTML5 + Canvas 2D**
+- **Vanilla JavaScript** — zero frameworks, zero build step
 - **Zero external dependencies**
-- **Adaptive rendering & particle system**
-- **Spatial audio** (Web Audio API)
-- **LocalStorage** save system
-- **Responsive** (desktop + mobile)
+- Adaptive rendering & particle system
+- Spatial audio via Web Audio API
+- LocalStorage save system
+- Fully responsive (desktop + mobile)
 
-This architecture makes the project:
-- Extremely portable
-- Easy to audit and contribute to
-- Perfect for educational purposes and portfolios
+This architecture makes the project extremely portable, easy to audit, and ideal for portfolios and learning.
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 neon-district/
-├── index.html          # The entire game (Director's Cut 9.5)
-├── LICENSE             # MIT
-├── README.md           # You are here
-├── CONTRIBUTING.md     # How to contribute
-├── CODE_OF_CONDUCT.md  # Community guidelines
+├── index.html              # The complete game (Director's Cut 9.5)
+├── LICENSE                 # MIT
+├── README.md               # This file
+├── CONTRIBUTING.md         # How to contribute
+├── CODE_OF_CONDUCT.md      # Community guidelines
+├── SECURITY.md             # Security policy
+├── package.json            # Project metadata
+├── RELEASE_NOTES.txt       # Detailed release notes
 └── .gitignore
 ```
 
 ---
 
-## 🗺️ Roadmap & Contribution Ideas
+## Roadmap & Contribution Ideas
 
-We welcome contributors! Here are high-impact areas:
+Contributions are very welcome. High-impact areas:
 
-### High Priority
-- [ ] More vehicle types & tuning
-- [ ] Additional districts / landmarks
-- [ ] Expanded contract system
-- [ ] Better mobile UI polish
-- [ ] Accessibility improvements (colorblind modes, reduced motion)
+**High Priority**
+- More vehicle types and tuning
+- Additional districts / landmarks
+- Expanded contract and side-hustle system
+- Mobile UI polish
+- Accessibility (colorblind modes, reduced motion)
 
-### Medium
-- [ ] Save slots / cloud sync (optional)
-- [ ] More photo mode filters
-- [ ] Mini-games expansion
-- [ ] Localization (Persian, etc.)
-- [ ] Performance profiling tools
+**Medium**
+- Extra Photo Mode filters
+- Mini-games expansion
+- Localization (including Persian)
+- Performance profiling helpers
 
-### Community
-- [ ] Custom maps / district editor
-- [ ] Replay / ghost system
-- [ ] Multiplayer experiments (optional)
+**Community Ideas**
+- District / map editor
+- Replay & ghost system
+- Experimental multiplayer
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 🧠 Debug & Development
+## Debug Tools
 
-Open browser console and type:
+Open the browser console and run:
 
 ```js
 window.__DC95()
 ```
 
-Returns current version, style score, combo, FPS and particle count.
+Returns: version, current style score, combo, FPS and active particle count.
 
 ---
 
-## 👤 Author
+## Author
 
 **Parvaz Jamei**  
-Embedded Software Engineer | Industrial IoT & Edge AI  
+Embedded Software Engineer · Industrial IoT & Edge AI  
+
 📍 Iran · [GitHub](https://github.com/Parvaz-Jamei) · [Website](https://proio.ir)
 
-This project started as a personal experiment in building a complete living open-world experience inside a single file.  
-Director's Cut 9.5 is the polished, stable release after multiple iterations focused on performance, safety and feel.
+Neon District began as a personal challenge: how complete can a living open-world experience be while staying inside a single file?  
+Director’s Cut 9.5 is the stable, performance-focused release after multiple careful iterations.
 
 ---
 
-## 📄 License
+## License
 
-This project is released under the **MIT License**.  
-You are free to use, modify, distribute and even commercialize it — just keep the copyright notice.
+Released under the **MIT License**.  
+You are free to use, modify, distribute and commercialize the project — just keep the copyright notice.
 
 ---
 
-## 🌟 Support the Project
+## Support the Project
 
 If you enjoy Neon District:
 
@@ -168,4 +169,4 @@ Thank you for playing and contributing!
 
 ---
 
-*Neon District — Director's Cut 9.5 · Built with ❤️ by Parvaz Jamei*
+*Neon District — Director’s Cut 9.5 · Built with care by Parvaz Jamei*
