@@ -1,19 +1,18 @@
-# Final Setup (30 seconds)
+# Final Step — Add the Game File
 
-The documentation and project structure are complete and polished.
+The entire project documentation and structure is polished and ready.
 
-**To finish the repository:**
+**Please do this one step (takes ~20 seconds):**
 
-1. Go to the repository page
-2. Click **Add file → Upload files**
-3. Drag your `Neon_District_Directors_Cut_Release.html` file
+1. Open the repository: https://github.com/Parvaz-Jamei/neon-district
+2. Click **Add file** → **Upload files**
+3. Drag the file `Neon_District_Directors_Cut_Release.html`
 4. Rename it to **`index.html`**
-5. Commit the change
+5. Click **Commit changes**
 
-Then enable GitHub Pages:
-- Settings → Pages → Source: `main` branch → Save
+Then go to **Settings → Pages** and set Source to `main` branch.
 
-The live game will be available at:
+After that the live demo will be:
 **https://parvaz-jamei.github.io/neon-district/**
 
-After uploading `index.html` you can safely delete this note.
+You can delete this note after the upload is done.
