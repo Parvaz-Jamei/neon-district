@@ -1,0 +1,40 @@
+Neon District — Director's Cut 9.5  ·  STABLE RELEASE
+====================================================
+Rebuilt carefully from clean baseline after a prior build
+had a full-screen / loop regression.
+
+WHAT IS IN THIS BUILD
+---------------------
+PRESENTATION
+- Director's Cut 9.5 branding (menu, pills, meta)
+- Safer menu CSS (gradients, glass card, buttons)
+- NO full-page CSS overlay (previous body::after removed)
+
+STYLE SYSTEM (original 9.5 + light juice)
+- Near-miss / stunt / combo feedback slightly stronger
+- Clean escape reward slightly higher
+- Style HUD glass panel polish
+- No runaway particle spam from style actions
+
+GRAPHICS (light, safe)
+- Extra warm lamp glow + few neon anchors at night only
+- Hard limits on how many glows are drawn
+- Skips entirely if FPS < 28
+- Does NOT multiply nightAmount (no screen-filling darkness)
+- Does NOT replace the main render pipeline
+
+OPTIMIZATION (non-invasive)
+- Does NOT replace requestAnimationFrame / loop
+- Soft particle trim every ~0.45s when over budget
+- Caps scale with FPS (80 / 140 / 220 / 320)
+- Mild camera look-ahead at speed only
+
+TECH
+- JS syntax verified with node --check
+- Single-file offline
+- All original systems preserved
+
+DEBUG
+  window.__DC95()
+
+Created by Parvaz Jamei
